@@ -9,7 +9,7 @@
     "brick/math": "^0.9.3",
     "brick/money": "^0.5.3",
     "jms/serializer-bundle": "^4.0.2",
-    "php-http/guzzle6-adapter": "dev-master",
+    "php-http/guzzle7-adapter": "dev-master",
     "php-http/httplug-bundle": "^1.7"
   },
   "require-dev": {
