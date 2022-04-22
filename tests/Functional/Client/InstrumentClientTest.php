@@ -37,7 +37,7 @@ class InstrumentClientTest extends AbstractClientTest
      */
     private $SUT;
 
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 

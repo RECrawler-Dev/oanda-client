@@ -75,7 +75,7 @@ abstract class AbstractClientTest extends WebTestCase
         ],
     ];
 
-    public function setUp()
+    public function setUp(): void
     {
         $client = static::createClient();
         $this->mockClient = $client->getContainer()->get('httplug.client.mock');

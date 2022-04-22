@@ -24,7 +24,7 @@ class StreamResponseHelperTest extends TestCase
      */
     private $stream;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         \Phake::initAnnotations($this);
     }

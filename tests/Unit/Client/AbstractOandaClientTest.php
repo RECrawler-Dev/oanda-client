@@ -106,7 +106,7 @@ class AbstractOandaClientTest extends TestCase
      */
     protected $uri;
 
-    public function setUp()
+    public function setUp(): void
     {
         Phake::initAnnotations($this);
 

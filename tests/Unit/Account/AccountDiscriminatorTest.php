@@ -37,7 +37,7 @@ class AccountDiscriminatorTest extends TestCase
         ],
     ];
 
-    public function setUp()
+    public function setUp(): void
     {
         Phake::initAnnotations($this);
 
